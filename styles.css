@@ -1,5 +1,6 @@
 body{
-    background-color: #181818;
+    background-color: black;
+    overflow: hidden;
 }
 *{
     margin: 0;
@@ -47,8 +48,13 @@ nav ul li a{
     background-color: #4ddf5d;
 }
 .container{
-    min-height: 90vh;
-    background-color: black;
+    min-height: 40vh;
+    /* background-color: black; */
+    /* background-image: linear-gradient(white 50% ,black 50%); */
+    /* background: rgb(0,0,0);
+    background: linear-gradient(360deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 60%, rgba(180,180,180,1) 100%); */
+    background: rgb(0,0,0);
+    background: linear-gradient(360deg, rgba(0,0,0,1) 66%, rgba(39,44,44,1) 90%, rgba(52,60,64,1) 100%);
     font-family: 'Montserrat', sans-serif;
     font-family: 'Roboto Mono', monospace;
     width: 50%;
@@ -74,16 +80,13 @@ nav ul li a{
 #myProgressBar{
     width: 40vw;  
     cursor: pointer;
-    
 }
 
 .icons{
-    /* margin-top: 10px; */
     margin-bottom: 20px;
     display: flex;
     align-items: center;
     column-gap: 25px;
-    
 }
 
 .icons i{
@@ -99,14 +102,19 @@ nav ul li a{
 .songItem{
     display: flex;
     height: 50px;
-    background-color: white;
-    
-    
-    color: black;
+    background-color: rgba(255,255,255,0);
+    border-radius: 5px;
+    border:0;
+    color: white;
     justify-content: space-between;
     align-items: center;
     padding-right: 10px;
     margin-bottom: 16px;
+}
+.songItem:hover{
+    /* border:solid 2px white; */
+    /* height: 46px; */
+    background-color: rgba(255,255,255,0.2);
 }
 .songItem img{
     width: 40px;
@@ -147,4 +155,24 @@ nav ul li a{
     font-family: 'Montserrat', sans-serif;
     font-family: 'Roboto Mono', monospace;
     color: grey;
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
+}
+
+.bottom input{
+    background: linear-gradient(to right, #1DB954 0%, #1DB954 50%, #fff 50%, #fff 100%);
+    border-radius: 0px;
+    height: 4px;
+    outline: none;
+    transition: background 450ms ease-in;
+    -webkit-appearance: none;
+
+}
+
+.bottom input::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    width:15px;
+    height:15px;
+    background: white;
+    border-radius: 50%;
 }
