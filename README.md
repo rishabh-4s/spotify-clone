@@ -9,4 +9,11 @@ Music Player
 ##
 Contact Page
 ![image](https://user-images.githubusercontent.com/79386635/211118463-760ebc59-2525-4dca-918c-b69054b72a40.png)
-
+# What works
+playing songs from main button
+seek bar
+now playing
+# What doesnt
+playing song from the list
+current song
+forward and backward
