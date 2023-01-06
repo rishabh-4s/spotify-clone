@@ -10,10 +10,14 @@ Music Player
 Contact Page
 ![image](https://user-images.githubusercontent.com/79386635/211118463-760ebc59-2525-4dca-918c-b69054b72a40.png)
 # What works
-playing songs from main button
-seek bar
-now playing
+<ul>
+<li>playing songs from main button</li>
+<li>seek bar</li>
+<li>now playing</li>
+</ul>
 # What doesnt
-playing song from the list
-current song
-forward and backward
+<ul>
+<li>playing song from the list</li>
+<li>current song</li>
+<li>forward and backward</li>
+</ul>
