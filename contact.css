@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Red+Hat+Display:wght@800;900&family=Roboto+Mono&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    /* background-color: #1DB954; */
+    background-color: black;
+    
+    overflow: hidden;
+    
+    height: 100vh;
+}
+.total{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    /* background-image: url("bg3.jpg"); */
+    /* opacity: 50%; */
+
+}
+body img{
+    width: 100vw;
+    opacity: 30%;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    font-family: 'Red Hat Display', sans-serif;
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 3px solid #1DB954; /* Gray border */
+    border-radius: 20px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical;
+    -webkit-box-shadow: none;
+    background-color: #181818;
+    color: white;
+}
+
+  
+  /* Style the submit button with a specific background color etc */
+input[type=submit] {
+    font-family: 'Red Hat Display', sans-serif;
+    margin-right: 15px;
+    height: 34px;
+    width: 170px;
+    font-size: 1.3rem;
+    border-width: 0px;
+    border-radius: 17px;
+    background-color: #1DB954;
+}
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+  
+  /* Add a background color and some padding around the form */
+.container {
+    
+    background-color: black;
+    padding: 20px;
+    width: 50vw;
+    
+    text-align: center;
+    
+    position: absolute;
+    /* margin-left: 200px; */
+    margin: auto;
+    left:50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    border: 3px solid #1DB954;
+    
+}

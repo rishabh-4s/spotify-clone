@@ -1,41 +1,52 @@
-body{
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Red+Hat+Display:wght@800;900&family=Roboto+Mono&display=swap');
+
+body {
     background-color: black;
     overflow: hidden;
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
 }
-header{
+
+header {
     display: flex;
     justify-content: space-between;
-    align-items: center;    
+    align-items: center;
     background-color: black;
-    border-bottom: 2px solid #2c2c2c;;
+    border-bottom: 2px solid #2c2c2c;
+    ;
 }
 
-nav ul{
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Roboto Mono', monospace;
+nav ul {
+    /* font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto Mono', monospace; */
+    font-family: 'Red Hat Display', sans-serif;
     display: flex;
     align-items: center;
     list-style-type: none;
     height: 70px;
 }
-nav ul li{
+
+nav ul li {
     padding: 0 15px;
 }
-nav ul li a{
+
+nav ul li a {
     text-decoration: none;
     color: white;
     font-size: 1.3rem;
 }
-.brand img{
+
+.brand img {
     width: 46px;
 }
-.contact button{
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Roboto Mono', monospace;
+
+.contact button {
+    /* font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto Mono', monospace; */
+    font-family: 'Red Hat Display', sans-serif;
     margin-right: 15px;
     height: 34px;
     width: 170px;
@@ -44,28 +55,35 @@ nav ul li a{
     border-radius: 17px;
     background-color: #1DB954;
 }
-.contact button:hover{
+
+.contact button:hover {
     background-color: #4ddf5d;
 }
-.container{
+
+.container {
     min-height: 40vh;
     /* background-color: black; */
     /* background-image: linear-gradient(white 50% ,black 50%); */
     /* background: rgb(0,0,0);
     background: linear-gradient(360deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 60%, rgba(180,180,180,1) 100%); */
-    background: rgb(0,0,0);
-    background: linear-gradient(360deg, rgba(0,0,0,1) 66%, rgba(39,44,44,1) 90%, rgba(52,60,64,1) 100%);
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Roboto Mono', monospace;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(360deg, rgba(0, 0, 0, 1) 66%, rgba(39, 44, 44, 1) 90%, rgba(52, 60, 64, 1) 100%);
+    /* font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto Mono', monospace; */
+    font-family: 'Red Hat Display', sans-serif;
     width: 50%;
     padding: 40px;
     padding-top: 20px;
     color: white;
 }
-.container h1{
+
+.container h1 {
     padding-bottom: 20px;
+    font-family: 'Red Hat Display', sans-serif;
+
 }
-.bottom{
+
+.bottom {
     position: sticky;
     background-color: #181818;
     height: 120px;
@@ -77,89 +95,100 @@ nav ul li a{
     flex-direction: column;
     bottom: 0;
 }
-#myProgressBar{
-    width: 40vw;  
+
+#myProgressBar {
+    width: 40vw;
     cursor: pointer;
 }
 
-.icons{
+.icons {
     margin-bottom: 20px;
     display: flex;
     align-items: center;
     column-gap: 25px;
 }
 
-.icons i{
+.icons i {
     cursor: pointer;
 }
 
-.change-buttons{
+.change-buttons {
     opacity: 50%;
 }
-.change-buttons:hover{
+
+.change-buttons:hover {
     opacity: 100%;
 }
-.songItem{
+
+.songItem {
     display: flex;
     height: 50px;
-    background-color: rgba(255,255,255,0);
+    background-color: rgba(255, 255, 255, 0);
     border-radius: 5px;
-    border:0;
+    border: 0;
     color: white;
     justify-content: space-between;
     align-items: center;
     padding-right: 10px;
     margin-bottom: 16px;
 }
-.songItem:hover{
+
+.songItem:hover {
     /* border:solid 2px white; */
     /* height: 46px; */
-    background-color: rgba(255,255,255,0.2);
+    background-color: rgba(255, 255, 255, 0.2);
 }
-.songItem img{
+
+.songItem img {
     width: 40px;
     height: auto;
     margin-left: 10px;
     margin-right: 10px;
-    
+
 }
-.songlistplay{
+
+.songlistplay {
     padding-right: 10px;
 }
-.songlistplay i{
+
+.songlistplay i {
     cursor: pointer;
 }
-.timestamp{
+
+.timestamp {
     margin-right: 10px;
 }
-.middle{
+
+.middle {
     display: flex;
 }
-.banner{
+
+.banner {
     width: 50%;
     opacity: 80%;
 }
-.banner img{
+
+.banner img {
     width: 100vh;
 }
-.songInfo{
+
+.songInfo {
     position: absolute;
     left: 2.5vw;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Red Hat Display', sans-serif;
 }
-.now{
+
+.now {
     position: absolute;
     left: 2.5vw;
     height: 70px;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Red Hat Display', sans-serif;
     color: grey;
     opacity: 0;
     transition: opacity 0.3s ease-in;
 }
 
-.bottom input{
+.bottom input {
     background: linear-gradient(to right, #1DB954 0%, #1DB954 50%, #fff 50%, #fff 100%);
     border-radius: 0px;
     height: 4px;
@@ -169,10 +198,10 @@ nav ul li a{
 
 }
 
-.bottom input::-webkit-slider-thumb{
+.bottom input::-webkit-slider-thumb {
     -webkit-appearance: none;
-    width:15px;
-    height:15px;
+    width: 15px;
+    height: 15px;
     background: white;
     border-radius: 50%;
 }

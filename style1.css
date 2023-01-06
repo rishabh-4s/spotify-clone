@@ -1,40 +1,46 @@
-body{
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Red+Hat+Display:wght@800;900&family=Roboto+Mono&display=swap');
+body {
     background-image: url("bg2.png");
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
 }
-header{
+
+header {
     display: flex;
     justify-content: space-between;
-    align-items: center;    
+    align-items: center;
     background-color: black;
-    border-bottom: 2px solid #2c2c2c;;
+    border-bottom: 2px solid #2c2c2c;
+    ;
 }
 
-nav ul{
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Roboto Mono', monospace;
+nav ul {
+    font-family: 'Red Hat Display', sans-serif;
     display: flex;
     align-items: center;
     list-style-type: none;
     height: 70px;
 }
-nav ul li{
+
+nav ul li {
     padding: 0 15px;
 }
-nav ul li a{
+
+nav ul li a {
     text-decoration: none;
     color: white;
     font-size: 1.3rem;
 }
-.brand img{
+
+.brand img {
     width: 46px;
 }
-.contact button{
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Roboto Mono', monospace;
+
+.contact button {
+    font-family: 'Red Hat Display', sans-serif;
     margin-right: 15px;
     height: 34px;
     width: 150px;
@@ -43,50 +49,57 @@ nav ul li a{
     border-radius: 17px;
     background-color: #1DB954;
 }
-.contact button:hover{
+
+.contact button:hover {
     background-color: #4ddf5d;
     background-repeat: no-repeat;
 }
-h1{
+
+h1 {
     color: white;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Red Hat Display', sans-serif;
     font-size: 5rem;
     /* font-weight: 900; */
 
 }
-.container{
+
+.container {
     margin-top: 30vh;
     text-align: center;
     /* justify-content: center; */
 }
-.mid button{
+
+.mid button {
     height: 50px;
     width: 300px;
     border-radius: 25px;
     margin: 40px 20px;
     color: white;
     font-size: 1rem;
-    cursor:pointer
+    cursor: pointer
 }
-.listen button{
-    background-color: #1DB954;  
+
+.listen button {
+    background-color: #1DB954;
     border-width: 0px;
 }
-.us button{
+
+.us button {
     border: none;
     background-color: transparent;
     border-color: white;
-    border:solid 3px white;
-    
+    border: solid 3px white;
+
 }
-.listen button:hover{
+
+.listen button:hover {
     border: none;
     background-color: transparent;
     border-color: white;
-    border:solid 3px white;
+    border: solid 3px white;
 }
-.us button:hover{
-    background-color: #1DB954;  
+
+.us button:hover {
+    background-color: #1DB954;
     border-width: 0px;
 }
