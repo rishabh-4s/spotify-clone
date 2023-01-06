@@ -45,6 +45,7 @@ nav ul li a{
 }
 .contact button:hover{
     background-color: #4ddf5d;
+    background-repeat: no-repeat;
 }
 h1{
     color: white;
@@ -55,8 +56,9 @@ h1{
 
 }
 .container{
-    margin-top: 200px;
+    margin-top: 30vh;
     text-align: center;
+    /* justify-content: center; */
 }
 .mid button{
     height: 50px;

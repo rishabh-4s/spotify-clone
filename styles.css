@@ -37,7 +37,7 @@ nav ul li a{
     font-family: 'Roboto Mono', monospace;
     margin-right: 15px;
     height: 34px;
-    width: 150px;
+    width: 170px;
     font-size: 1.3rem;
     border-width: 0px;
     border-radius: 17px;
@@ -53,9 +53,12 @@ nav ul li a{
     font-family: 'Roboto Mono', monospace;
     width: 50%;
     padding: 40px;
+    padding-top: 20px;
     color: white;
 }
-
+.container h1{
+    padding-bottom: 20px;
+}
 .bottom{
     position: sticky;
     background-color: #181818;
@@ -70,6 +73,7 @@ nav ul li a{
 }
 #myProgressBar{
     width: 40vw;  
+    cursor: pointer;
     
 }
 
@@ -110,26 +114,37 @@ nav ul li a{
     margin-left: 10px;
     margin-right: 10px;
     
-    
+}
+.songlistplay{
+    padding-right: 10px;
+}
+.songlistplay i{
+    cursor: pointer;
 }
 .timestamp{
     margin-right: 10px;
-    cursor: pointer;
 }
 .middle{
     display: flex;
 }
 .banner{
-    /* display: inline-block; */
     width: 50%;
-    background-image: url("bg.jpg");
     opacity: 80%;
-    background-repeat: no-repeat;
-
+}
+.banner img{
+    width: 100vh;
 }
 .songInfo{
     position: absolute;
     left: 2.5vw;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Roboto Mono', monospace;
+}
+.now{
+    position: absolute;
+    left: 2.5vw;
+    height: 70px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    color: grey;
 }
