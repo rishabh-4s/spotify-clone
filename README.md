@@ -10,7 +10,8 @@ Spotify clone (sort of) based on CodeWithHarry's Spotify Project.
 <li>seek bar</li>
 <li>now playing</li>
 </ul>
-# What doesnt
+
+# What doesn't
 <ul>
 <li>playing song from the list</li>
 <li>current song</li>
