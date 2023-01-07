@@ -62,14 +62,8 @@ nav ul li a {
 
 .container {
     min-height: 40vh;
-    /* background-color: black; */
-    /* background-image: linear-gradient(white 50% ,black 50%); */
-    /* background: rgb(0,0,0);
-    background: linear-gradient(360deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 60%, rgba(180,180,180,1) 100%); */
     background: rgb(0, 0, 0);
     background: linear-gradient(360deg, rgba(0, 0, 0, 1) 66%, rgba(39, 44, 44, 1) 90%, rgba(52, 60, 64, 1) 100%);
-    /* font-family: 'Montserrat', sans-serif;
-    font-family: 'Roboto Mono', monospace; */
     font-family: 'Red Hat Display', sans-serif;
     width: 50%;
     padding: 40px;
@@ -78,8 +72,17 @@ nav ul li a {
 }
 
 .container h1 {
+    font-size: 4rem;
+
+}
+.container p{
     padding-bottom: 20px;
-    font-family: 'Red Hat Display', sans-serif;
+    opacity: 50%;    
+}
+
+.heros{
+    border-bottom:2px solid #2c2c2c;
+    margin-bottom: 30px;
 
 }
 
@@ -134,8 +137,6 @@ nav ul li a {
 }
 
 .songItem:hover {
-    /* border:solid 2px white; */
-    /* height: 46px; */
     background-color: rgba(255, 255, 255, 0.2);
 }
 
